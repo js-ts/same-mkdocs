@@ -13,6 +13,13 @@
   display: none;
 }
 
+
+:root {
+  --md-primary-fg-color:        #363D47;
+  /* --md-primary-fg-color--light: #ECB7B7; */
+  /* --md-primary-fg-color--dark:  #90030C; */
+}
+
 @media screen and (min-width: 60em) {
   .md-sidebar--secondary {
     display: none;
