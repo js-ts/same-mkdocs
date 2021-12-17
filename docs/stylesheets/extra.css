@@ -1,8 +1,8 @@
 :root {
-  --md-primary-fg-color: #1a7dc9;
-  --home-color: #0071c7;
-  --nav-item-color: #4d4d4d;
-}
+  --md-primary-fg-color: #363D47;
+  --home-color: #363D47;
+  --nav-item-color: #ffffff;
+  }
 
 .md-clipboard {
   color: var(--md-primary-fg-color);
@@ -69,7 +69,7 @@
   color: black;
 }
 .md-announce a {
-  color: blue;
+  color: white;
   text-decoration: underline;
 }
 
