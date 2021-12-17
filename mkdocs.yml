@@ -1,5 +1,5 @@
 nav:
-    - Home: index.md
+    # - Home: index.md
     - Getting started:
           - SAME Quickstart: getting-started/_index.md
           - Adding Steps: getting-started/adding-steps.md
