@@ -1,0 +1,81 @@
+nav:
+    - Home: index.md
+    - Getting started:
+          - SAME Quickstart: getting-started/_index.md
+          - Adding Steps: getting-started/adding-steps.md
+          - Changing Environment: getting-started/changing-environment.md
+          - Dev Build: getting-started/dev-build.md
+          - First Notebook: getting-started/first-notebook.md
+          - Importing Packages: getting-started/importing-packages.md
+          - Installing: getting-started/installing.md
+#     - Developer Guide:
+#           - How to contribute: developer/developer.md
+#           - Debugging guide: developer/debug.md
+#     - Blog:
+#           - Releases:
+            
+#           - Articles:        
+#     - Community:
+#         - Adopters: community/adopters.md
+#         - Demos and Presentations: community/presentations.md
+
+site_name: SAME PROJECT Website
+site_url: https://sameproject.ml/
+site_description: SAME PROJECT Documentation
+extra_css:
+  - stylesheets/extra.css
+
+repo_url: https://github.com/SAME-Project/SAME-MONO-PRIVATE
+edit_uri: edit/mkdocs/docs
+
+theme:
+  name: material
+  logo: images/logo/same.png
+  favicon: images/favicon/favicon-32x32.png
+  custom_dir: overrides
+  features:
+    - navigation.tabs
+    - navigation.tracking
+    - navigation.tabs.sticky
+    - navigation.indexes
+    - navigation.top
+
+markdown_extensions:
+  # - mdx_include:
+  #     base_path: docs
+  - pymdownx.emoji:
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+  - attr_list
+  - meta
+  - pymdownx.superfences
+  - pymdownx.tabbed
+  - pymdownx.details
+  - pymdownx.snippets:
+      base_path: docs/snippets
+  - pymdownx.keys
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.escapeall
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - admonition
+  - toc:
+      permalink: true
+  - def_list
+
+copyright: "Copyright © 2021 The SAME PROJECT Authors"
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/SAME-Project/
+      name: SAME PROEJCT
+    - icon: fontawesome/brands/slack
+      link: https://join.slack.com/t/thesameproject/shared_invite/zt-lq9rk2g6-Jyfv3AXu_qnX9LqWCmV7HA
+      name: Slack
+  # TODO: Replace with https://github.com/mkdocs/mkdocs/pull/2267 once mkdocs 1.2 is out.
+  version_warning: !!python/object/apply:os.getenv ["VERSION_WARNING"]
+  same_version: !!python/object/apply:os.getenv ["SAME_VERSION"]
+  branch: !!python/object/apply:os.getenv ["SAMPLES_BRANCH", "mkdocs"]
