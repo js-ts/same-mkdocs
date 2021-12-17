@@ -30,7 +30,7 @@ same program run -t kubeflow
 
 This command converts the notebook into a single python script, and deploys it to your [previously configured]({{< ref installing.md >}}) Kubeflow.
 
-![Sample three step graph](../../three-step-execution.jpg)
+![Sample three step graph](../images/three-step-execution.jpg)
 
 To do the same against Azure Machine Learning, you should execute the following command:
 

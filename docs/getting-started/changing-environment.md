@@ -11,7 +11,7 @@ Often times, a specific step will require a particular base image to execute ins
 
 First, go to the notebook settings and view "Cell Metadata":
 
-![The menu item for displaying tags for Jupyter cells](../../add-tags-to-jupyter-cell.jpg)
+![The menu item for displaying tags for Jupyter cells](../images/add-tags-to-jupyter-cell.jpg)
 
 ### Adding an Environment Specifier
 You can add alternate base images with the following tag structure:
@@ -26,7 +26,7 @@ For example:
 environment=default
 ```
 
-![Default Environment Tag](../../environment-default.jpg)
+![Default Environment Tag](../images/environment-default.jpg)
 
 or:
 
@@ -34,10 +34,10 @@ or:
 environment=private-training-env
 ```
 
-![Private Environment Tag](../../environment-private-training-env.jpg)
+![Private Environment Tag](../images/environment-private-training-env.jpg)
 
 ### Update SAME File
 
 Then in your SAME file, you'll add a section that maps to the specific image you'll need.
 
-![SAME file contents](../../private-environment-same-file.jpg)
+![SAME file contents](../images/private-environment-same-file.jpg)
