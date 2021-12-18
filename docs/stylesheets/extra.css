@@ -26,6 +26,11 @@
   color: var(--md-accent-fg-color);
 }
 
+md-tabs__link{
+
+  color: #ffffff;
+}
+
 .md-tabs {
   border-bottom: 1px solid var(--home-color);
 }
