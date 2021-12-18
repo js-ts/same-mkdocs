@@ -26,7 +26,7 @@
   color: var(--md-accent-fg-color);
 }
 
-md-tabs__link{
+md-tabs__link a{
 
   color: #ffffff;
 }
