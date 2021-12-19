@@ -58,7 +58,7 @@ markdown_extensions:
 
 copyright: "Copyright © 2021 SAME Project Authors"
 
-# site_name: SAME Project
+site_name: SAME Project
 # site_url: https://sameproject.ml/
 site_description: SAME PROJECT Documentation
 repo_url: https://github.com/js-ts/same-mkdocs
