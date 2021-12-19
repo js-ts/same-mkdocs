@@ -62,7 +62,7 @@ site_name: SAME Project
 # site_url: https://sameproject.ml/
 site_description: SAME PROJECT Documentation
 repo_url: https://github.com/js-ts/same-mkdocs
-repo_name: js-ts/same-mkdocs
+# repo_name: js-ts/same-mkdocs
 edit_uri: edit/mkdocs/docs
 extra_css:
   - stylesheets/extra.css
