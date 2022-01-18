@@ -1,6 +1,6 @@
 nav:
     # - Home: index.md
-#     - Getting started:
+    - Getting started:
           # - SAME Quickstart: getting-started/_index.md
           - Installing: getting-started/installing.md
           - First Notebook: getting-started/first-notebook.md
