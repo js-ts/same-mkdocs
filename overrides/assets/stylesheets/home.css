@@ -113,17 +113,7 @@ body {
   color: black;
 }
     
-.home-container .md-button {
-  margin-top: 0.5rem;
-  margin-right: 0.5rem;
-  color: var(--md-primary-bg-color);
-}
 
-.home-container .md-button--primary {
-  background-color: var(--md-primary-bg-color);
-  color: hsla(280deg, 37%, 48%, 1);
-  border-color: var(--md-primary-bg-color);
-}
 
 .home-container h1 {
   color: #fff;
