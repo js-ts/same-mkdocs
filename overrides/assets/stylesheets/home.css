@@ -3,33 +3,6 @@
   max-width: 100%;
 }
 
-/* .md-main__inner .md-content__inner,
-.md-sidebar--primary:not([hidden]) ~ .md-content > .md-content__inner {
-  margin: 0;
-  padding: 0;
-}
-
-.md-main__inner .md-content__inner:before {
-  display: none;
-}
-
-@media screen and (min-width: 60em) {
-  .md-sidebar--secondary {
-    display: none;
-  }
-}
-@media screen and (min-width: 76.25em) {
-  .md-sidebar--primary {
-    display: none;
-  }
-} */
-
-
-.md-typeset hr {
-  border-bottom: .05rem solid var(--md-default-fg-color--lightest);
-  display: flow-root;
-  margin: 0.05em 0;
-}
 
 hr {
   border: 0;
