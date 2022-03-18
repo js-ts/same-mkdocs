@@ -1,8 +1,8 @@
 ---
-type = "docs"
-title = "Sample Notebook"
-description = "Sample notebook for getting started with SAME"
-weight = 900
+type: docs
+title: "Sample Notebook"
+description: "Sample notebook for getting started with SAME"
+weight: 900
 ---
 
 <!--
