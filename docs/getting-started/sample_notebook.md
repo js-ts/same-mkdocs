@@ -1,7 +1,7 @@
 ---
 type = "docs"
 title = "Sample Notebook"
-description = "None"
+description = "Sample notebook for getting started with SAME"
 weight = 900
 ---
 
@@ -31,8 +31,6 @@ background-position: left center;
 <a class="github-link" href="https://github.com/kubeflow/website/blob/master/test\testdata\generic_notebook\sample_notebook.ipynb">View source on GitHub</a>
 </div>
 
-
-> Sample notebook for getting started with SAME
 
 
 ```python
