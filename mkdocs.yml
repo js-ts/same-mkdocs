@@ -8,6 +8,8 @@ nav:
           - Changing Environment: getting-started/changing-environment.md
           - Dev Build: getting-started/dev-build.md
           - Importing Packages: getting-started/importing-packages.md
+          - Sample Notebook: getting-started/sample-notebook.md
+          
 #     - Developer Guide:
 #           - How to contribute: developer/developer.md
 #           - Debugging guide: developer/debug.md
